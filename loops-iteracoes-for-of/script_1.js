@@ -7,6 +7,7 @@
 const myName = "John";
 
 //apresenta os caracters da string nome
+//aqui ele separa cada um dos caracters do myName
 for(let caracters of myName){
     console.log(caracters);
 }
