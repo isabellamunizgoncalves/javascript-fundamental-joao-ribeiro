@@ -9,8 +9,8 @@ class Human{
 	
 	#name
 	
-	set setName(name){
-		this.#name = name;
+	set setName(value){
+		this.#name = value;
 	}
 	
 	get getName(){
