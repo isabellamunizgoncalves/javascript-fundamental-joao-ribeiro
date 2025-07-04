@@ -30,4 +30,7 @@ class Calculadora{
 let n1 = 15;
 let n2 = 20;
 
-Calculadora.sum(n1, n2);
+console.log(Calculadora.sum(n1, n2));
+console.log(Calculadora.substract(n1, n2));
+console.log(Calculadora.multiply(n1, n2));
+console.log(Calculadora.divisao(n1, n2));

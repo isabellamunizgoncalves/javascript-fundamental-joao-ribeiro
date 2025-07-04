@@ -23,3 +23,13 @@ console.log(number3 ?? 100); //123
 
 let number4 = 0;
 console.log(number4 ?? 100);//0
+
+let number5 = "";
+console.log(number5 ?? 100)// ""
+
+let number6 = false;
+console.log(number6 ?? 100);
+
+let number7 = null;
+let number8 = number7 ?? 100;
+console.log(number8);
